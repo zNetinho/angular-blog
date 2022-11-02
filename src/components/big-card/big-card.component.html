@@ -1,0 +1,22 @@
+<div class="main-content">
+    <div class="card-principal">
+        <div class="big__Card-image">
+            <a [routerLink]="['view-post', Id]">
+                <img src="{{ photoCover }}" alt=""
+                style="width: 500px;
+                       height: 251px;"
+                >    
+            </a>
+        </div>
+        <div class="big__Card-Title">
+            <a [routerLink]="['view-post', Id]">
+                <h2>{{ cardTitle }}</h2>
+            </a>
+        </div>
+        <div class="big__Card-Description">
+            <a [routerLink]="['view-post', Id]">
+                <p>{{ cardDescription }}</p>
+            </a>
+        </div>
+    </div>
+</div>
